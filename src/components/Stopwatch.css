@@ -1,0 +1,50 @@
+
+
+.stopwatch{
+    background-color: hsl(0, 62%, 23%);
+    padding: 2rem;
+    border: 3px solid;
+    border-radius: 50px ;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+
+.display{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.start-button{
+    border: 1.5px solid rgb(255, 254, 254);
+    background-color: rgb(84, 84, 84);
+}
+
+.start-button:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+.stop-button{
+    border: 1.5px solid rgb(255, 254, 254);
+    background-color: rgb(84, 84, 84);
+}
+
+.stop-button:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+.reset-button{
+    border: 1.5px solid rgb(255, 254, 254);
+    background-color: rgb(84, 84, 84);
+}
+
+.reset-button:hover{
+    background-color: rgb(80, 80, 80);
+}
